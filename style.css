@@ -190,6 +190,20 @@ img {
     0 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
+.timeline-picture {
+  position: absolute;
+  top: 0.3em;
+  width: 160px;
+  height: 90px;
+  left: 5%;
+  border-radius: 100%;
+  z-index: 10;
+  margin-left: 0px;
+  background-color: #d7e4ed;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0),
+    0 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
 /* Block with right and left  */
 .timeline-blocks {
   display: block;
@@ -204,7 +218,7 @@ img {
 }
 
 .timeline .timeline-icon img {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 100%;
   display: block;
   float: right;
@@ -290,7 +304,6 @@ img {
   float: left;
   text-align: right;
 }
-
 .dir-l:before {
   content: "";
   display: inline-block;
