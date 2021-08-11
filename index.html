@@ -3,11 +3,19 @@
 <head>
     <meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body lang="en">
 <h2>My Events</h2>
+
+<label for="checkKonige">Könige:</label> 
+<input type="checkbox" id="checkKonige" onclick="funKonig()">
+
+<label for="checkBibelbuch">Bibelbücher:</label> 
+<input type="checkbox" id="checkBibelbuch" onclick="funBibelbuch()">
+
 <ul class="timeline">
-	<li class="timeline-blocks">
+	<li id="1" class="timeline-blocks">
 		<!--<img class="timeline-picture" src="img/adamEve.jpg" alt="timeline" onerror="this.onerror=null; this.remove()" />-->
 		<div class="timeline-picture" (click)="onSelect(event)">
 			<!--<img src="img/adamEve.jpg" alt="timeline" onerror="this.onerror=null; this.remove()" />-->
@@ -19,7 +27,7 @@
 			<p>Jehova erschafft erst Adam und kurz danach Eva. (1.Mose 1:26)</p>
 		</div>
 	</li>
-	<li class="timeline-blocks">
+	<li id="2" class="timeline-blocks">
 		<!--<img class="timeline-picture" src="img/adamEve.jpg" alt="timeline" onerror="this.onerror=null; this.remove()" />-->
 		<div class="timeline-picture" (click)="onSelect(event)">
 			<!--<img src="img/adamEve.jpg" alt="timeline" onerror="this.onerror=null; this.remove()" />-->
@@ -31,7 +39,7 @@
 			<p>Noah, seine drei Söhne Sem, Ham und Japhet sowie deren Familien überleben die Sintflut (1. Mose 6:1-22)</p>
 		</div>
 	</li>
-	<li class="timeline-blocks">
+	<li id="3" class="timeline-blocks">
 		<!--<img class="timeline-picture" src="img/adamEve.jpg" alt="timeline" onerror="this.onerror=null; this.remove()" />-->
 		<div class="timeline-picture" (click)="onSelect(event)">
 			<!--<img src="img/adamEve.jpg" alt="timeline" onerror="this.onerror=null; this.remove()" />-->
