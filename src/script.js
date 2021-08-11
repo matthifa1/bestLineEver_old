@@ -1,5 +1,5 @@
 function funKonig() {
-  alert("Hallo König");
+  //alert("Hallo König");
   
   // Get the checkbox
   var checkBox = document.getElementById("checkKonige");
@@ -25,7 +25,7 @@ function funKonig() {
 
 function funBibelbuch() {
 	
-  alert("Hallo Bibelbuch");
+  //alert("Hallo Bibelbuch");
   // Get the checkbox
   var checkBox = document.getElementById("checkBibelbuch");
   // Get the output text
